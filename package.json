@@ -1,0 +1,32 @@
+{
+  "name": "find-up-keys",
+  "version": "1.0.0",
+  "description": "Find matching values for a given name key in an object.",
+  "main": "index.js",
+  "repository": "mrozio13pl/find-up-keys",
+  "author": "mrozio13pl",
+  "license": "MIT",
+  "scripts": {
+    "test": "uvu test .spec.js$",
+    "lint": "eslint ."
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "find",
+    "up",
+    "keys",
+    "nested",
+    "object"
+  ],
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "uvu": "^0.5.6"
+  }
+}
