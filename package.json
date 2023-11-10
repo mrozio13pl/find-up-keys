@@ -1,6 +1,6 @@
 {
   "name": "find-up-keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find matching values for a given name key in an object.",
   "main": "index.js",
   "types": "index.d.ts",
