@@ -25,6 +25,6 @@
  * findUpKeys(obj, 'description'); // <= ['Hi!', 'more desc', null]
  * ```
  */
-function findUpKeys(obj: any, name: string): any[]
+declare function findUpKeys<T = any>(obj: any, name: string): T[]
 
 export = findUpKeys
